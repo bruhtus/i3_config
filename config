@@ -45,7 +45,7 @@ bindsym $mod+a exec --no-startup-id rofi -show run
 ################################################################################################
 
 exec --no-startup-id volumeicon
-bindsym $mod+z exec $myTerm -e 'alsamixer'
+bindsym $mod+z exec terminal -e 'alsamixer'
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
 #bindsym $mod+Ctrl+m exec pavucontrol
@@ -59,6 +59,7 @@ bindsym $mod+z exec $myTerm -e 'alsamixer'
 # Start Applications
 bindsym $mod+Ctrl+b exec $myTerm -e 'bmenu'
 bindsym $mod+w exec google-chrome-stable
+bindsym $mod+Ctrl+Shift+n exec google-chrome-stable --incognito
 bindsym $mod+Ctrl+e exec pcmanfm
 bindsym $mod+e exec $myTerm -e ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
