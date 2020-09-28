@@ -61,6 +61,7 @@ bindsym $mod+Ctrl+b exec $myTerm -e 'bmenu'
 bindsym $mod+w exec google-chrome-stable
 bindsym $mod+Ctrl+Shift+n exec google-chrome-stable --incognito
 bindsym $mod+Shift+q exec telegram-desktop
+bindsym $mod+Shift+n exec notion-app
 bindsym $mod+Shift+p exec pamac-manager
 bindsym $mod+Ctrl+e exec pcmanfm
 bindsym $mod+e exec $myTerm -e ranger
