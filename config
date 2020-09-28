@@ -60,6 +60,8 @@ bindsym $mod+z exec terminal -e 'alsamixer'
 bindsym $mod+Ctrl+b exec $myTerm -e 'bmenu'
 bindsym $mod+w exec google-chrome-stable
 bindsym $mod+Ctrl+Shift+n exec google-chrome-stable --incognito
+bindsym $mod+Shift+q exec telegram-desktop
+bindsym $mod+Shift+p exec pamac-manager
 bindsym $mod+Ctrl+e exec pcmanfm
 bindsym $mod+e exec $myTerm -e ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
@@ -67,7 +69,7 @@ bindsym $mod+F5 exec $myTerm -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
-bindsym $mod+Shift+q exec --no-startup-id i3-scrot
+bindsym $mod+Ctrl+Shift+q exec --no-startup-id i3-scrot
 bindsym $mod+Shift+a --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+s --release exec --no-startup-id i3-scrot -s
 #bindsym $mod+Ctrl+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
