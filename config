@@ -289,7 +289,8 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
-exec --no-startup-id start_conky_maia
+exec --no-startup-id start_conky_grey
+# exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
@@ -326,18 +327,19 @@ set_from_resource $term_color13    color13
 set_from_resource $term_color14    color14
 set_from_resource $term_color15    color15
 
+set_from_resource $fg i3wm.color7 #d8d8d8
+set_from_resource $bg i3wm.color2 #222D31
+
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
 	i3bar_command i3bar
-	status_command i3status
+	#status_command i3status
+	status_command py3status
 	position top
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
 #	tray_output primary
 #	tray_output eDP1
-
-set_from_resource $fg i3wm.color7 #d8d8d8
-set_from_resource $bg i3wm.color2 #222D31
 
 	bindsym button4 nop
 	bindsym button5 nop
