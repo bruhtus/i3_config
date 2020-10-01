@@ -1,4 +1,4 @@
-# Qtile Window Manager Configuration
+# I3 Window Manager Configuration
 
 i3 is a tling window manager (usually called i3wm). The default configuration may vary depending on your distro, in my case the default configuration file is on $HOME/.i3/config (you can search using `locate .i3/config` but don't forget to do `sudo updatedb` first).
 You can find the info about i3 on [their website](https://i3wm.org) or [their documentation](http://i3wm.org/docs/).
