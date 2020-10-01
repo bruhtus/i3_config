@@ -7,6 +7,8 @@ The component used in this config is:
 - [pywal](https://github.com/dylanaraps/pywal)
 - [polybar](https://github.com/polybar/polybar)
 - [py3status](https://github.com/ultrabug/py3status)
+- [rofi](https://github.com/davatorium/rofi)
+- [conky](https://github.com/brndnmtthws/conky)
 
 If you're using the default config from /usr/ folder then you need to change ownership of that file using the command below:
 ```bash
