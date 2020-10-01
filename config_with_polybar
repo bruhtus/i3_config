@@ -58,6 +58,7 @@ bindsym $mod+z exec terminal -e 'alsamixer'
 
 # Start Applications
 bindsym $mod+Ctrl+b exec $myTerm -e 'bmenu'
+bindsym $mod+Ctrl+Shift+c exec $myTerm -e vim '/home/bruhtus/.i3/config'
 bindsym $mod+w exec google-chrome-stable
 bindsym $mod+Ctrl+Shift+n exec google-chrome-stable --incognito
 bindsym $mod+Shift+q exec telegram-desktop
@@ -73,7 +74,6 @@ bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart du
 bindsym $mod+Ctrl+Shift+q exec --no-startup-id i3-scrot
 bindsym $mod+Shift+a --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+s --release exec --no-startup-id i3-scrot -s
-#bindsym $mod+Ctrl+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
 # focus_follows_mouse no
@@ -291,10 +291,11 @@ exec --no-startup-id blueman-tray
 exec --no-startup-id clipit
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
-exec --no-startup-id start_conky_grey
+exec --no-startup-id $HOME/.config/conky/start_conky_color_scheme
+# exec --no-startup-id start_conky_grey
 # exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 10 -locker blurlock
+# exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
