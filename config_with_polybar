@@ -71,7 +71,7 @@ bindsym $mod+F5 exec $myTerm -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
-bindsym $mod+Ctrl+Shift+q exec --no-startup-id i3-scrot
+#bindsym $mod+Ctrl+Shift+q exec --no-startup-id i3-scrot
 #bindsym $mod+Shift+a --release exec --no-startup-id i3-scrot -w
 #bindsym $mod+Shift+a --release exec --no-startup-id i3-scrot -w
 #bindsym $mod+Shift+s --release exec --no-startup-id i3-scrot -s
