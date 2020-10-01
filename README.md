@@ -9,6 +9,7 @@ The component used in this config is:
 - [py3status](https://github.com/ultrabug/py3status)
 - [rofi](https://github.com/davatorium/rofi)
 - [conky](https://github.com/brndnmtthws/conky)
+- [flameshot](https://github.com/flameshot-org/flameshot)
 
 If you're using the default config from /usr/ folder then you need to change ownership of that file using the command below:
 ```bash
