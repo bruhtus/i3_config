@@ -64,7 +64,7 @@ bindsym $mod+Ctrl+Shift+n exec google-chrome-stable --incognito
 bindsym $mod+Shift+q exec telegram-desktop
 bindsym $mod+Shift+n exec notion-app
 bindsym $mod+Shift+p exec pamac-manager
-bindsym $mod+Ctrl+e exec pcmanfm
+bindsym $mod+Shift+e exec pcmanfm
 bindsym $mod+e exec $myTerm -e ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 bindsym $mod+F5 exec $myTerm -e 'mocp'
@@ -233,7 +233,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+w restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Set shut down, restart and locking features
 bindsym $mod+0 mode "$mode_system"
