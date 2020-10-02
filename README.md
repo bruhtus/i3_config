@@ -26,7 +26,8 @@ source ~/.cache/wal/colors-tty.sh
 ```
 
 #### Mounting External Drives For Ranger
-Use `lsblk` to find external drives and then do `udisksctl mount -b /dev/sdxY` to mount the external drives or do `udisksctl unmount -b /dev/sdxY` to unmount the external drives
-for example: `udisksctl mount -b /dev/sdb1` or `udiskctl unmount -b /dev/sdb1`
+Use `lsblk` to find external drives and then do `udisksctl mount -b /dev/sdxY` to mount the external drives or do `udisksctl unmount -b /dev/sdxY` to unmount the external drives.
+
+For example: `udisksctl mount -b /dev/sdb1` or `udiskctl unmount -b /dev/sdb1`
 
 File [startxrandr.sh](startxrandr.sh) is for setting up dual monitor with xrandr.
