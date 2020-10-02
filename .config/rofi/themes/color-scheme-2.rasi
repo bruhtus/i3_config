@@ -11,7 +11,7 @@ configuration {
 * {
   blue: #101010;
   purple: #f4eee4;
-  fg: #e8ae98;
+  fg: #f1beb0;
 
   bg: #101010;
   bg-alt: #101010;
