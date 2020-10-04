@@ -16,7 +16,7 @@ If you're using the default config from /usr/ folder then you need to change own
 sudo chown owner.group folder/file
 ```
 you can check owner and group by using `ls -lart` or `ll` in the folder (the owner is on column 3 and the group on column 4).
-(For more information about change ownership you can see [this article](https://www.howtoforge.com/linux-chown-command/).
+(For more information about change ownership you can see [this article](https://www.howtoforge.com/linux-chown-command/))
 
 You could change new terminal color scheme by adding pywal color scheme to you shell config (.bashrc or .zshrc or something else) by adding this command:
 ```bash
